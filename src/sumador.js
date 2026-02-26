@@ -1,4 +1,4 @@
-function saludar(nombre, genero, hora) {
+function saludar(nombre, genero, edad, hora) {
   // hora optional for testing; default to current hour
   const h = typeof hora === "number" ? hora : new Date().getHours();
 
@@ -12,9 +12,20 @@ function saludar(nombre, genero, hora) {
   }
 
   let resultado = saludoHora;
+
+  // añade prefijo Sr/Sra si hay edad>30 y género
   if (nombre) {
-    resultado += ` ${nombre}`;
+    let prefijo = "";
+    if (typeof edad === "number" && edad > 30) {
+      if (genero === "masculino") {
+        prefijo = "Sr. ";
+      } else if (genero === "femenino") {
+        prefijo = "Sra. ";
+      }
+    }
+    resultado += ` ${prefijo}${nombre}`;
   }
+
   if (genero) {
     resultado += ` (${genero})`;
   }

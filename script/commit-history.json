@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dc1dd82310050f83e093d6ed5571356acaaff352",
     "author": "Gabriel Fernandez",
     "commit": {
       "date": "2026-02-26T05:18:26.000Z",
       "message": "Feat: Ahora tambien te saluda segun tu genero",
-      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo5/commit/HEAD"
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo5/commit/dc1dd82310050f83e093d6ed5571356acaaff352"
     },
     "stats": {
       "total": 43,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Fernandez",
+    "commit": {
+      "date": "2026-02-26T05:20:30.000Z",
+      "message": "Feat: Te saluda con Sr o Sra si eres mayor de 30",
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo5/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 33,
+      "deletions": 13,
+      "date": "2026-02-26"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
