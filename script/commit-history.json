@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "6de638f2ac65ef8b93529fb3268e69bf6e64fc62",
     "author": "Gabriel Fernandez",
     "commit": {
       "date": "2026-02-26T05:10:01.000Z",
       "message": "Cambiando el proyecto base agregando el boton de saludo simple",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject-logfiles/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject-logfiles/commit/6de638f2ac65ef8b93529fb3268e69bf6e64fc62"
     },
     "stats": {
       "total": 51,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Fernandez",
+    "commit": {
+      "date": "2026-02-26T05:13:48.000Z",
+      "message": "Feat: Ahorate saluda con nombre",
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo5/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 18,
+      "deletions": 6,
+      "date": "2026-02-26"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }

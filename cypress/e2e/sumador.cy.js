@@ -1,7 +1,8 @@
 describe("Saludar", () => {
-  it("Displays Hola when the button is clicked", () => {
+  it("Displays Hola nombre when a name is entered", () => {
     cy.visit("/");
+    cy.get("#nombre-input").type("Ana");
     cy.get("#saludar-button").click();
-    cy.get("#resultado-div").should("contain", "Hola");
+    cy.get("#resultado-div").should("contain", "Hola Ana");
   });
 });

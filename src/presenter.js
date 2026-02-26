@@ -1,8 +1,10 @@
 import saludar from "./sumador";
 
 const button = document.querySelector("#saludar-button");
+const input = document.querySelector("#nombre-input");
 const div = document.querySelector("#resultado-div");
 
 button.addEventListener("click", () => {
-  div.innerHTML = "<p>" + saludar() + "</p>";
+  const nombre = input.value.trim();
+  div.innerHTML = "<p>" + saludar(nombre) + "</p>";
 });
