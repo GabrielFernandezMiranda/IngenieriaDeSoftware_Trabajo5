@@ -1,9 +1,7 @@
-describe("Sumador", () => {
-  it("Shows the amount of the addition to the user", () => {
+describe("Saludar", () => {
+  it("Displays Hola when the button is clicked", () => {
     cy.visit("/");
-    cy.get("#primer-numero").type(4);
-    cy.get("#segundo-numero").type(5);
-    cy.get("#sumar-button").click();
-    cy.get("#resultado-div").should("contain", "9");
+    cy.get("#saludar-button").click();
+    cy.get("#resultado-div").should("contain", "Hola");
   });
 });
