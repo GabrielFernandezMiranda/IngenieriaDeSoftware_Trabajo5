@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "67fb3fe525a67d48861c5439ea3f095e8a95c922",
     "author": "Gabriel Fernandez",
     "commit": {
       "date": "2026-02-26T05:16:00.000Z",
       "message": "Feat: Saluda diferente dependiendo la hora, buenos dias, buenas noches, buenas tardes",
-      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo5/commit/HEAD"
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo5/commit/67fb3fe525a67d48861c5439ea3f095e8a95c922"
     },
     "stats": {
       "total": 44,
       "additions": 34,
       "deletions": 10,
+      "date": "2026-02-26"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Fernandez",
+    "commit": {
+      "date": "2026-02-26T05:18:26.000Z",
+      "message": "Feat: Ahora tambien te saluda segun tu genero",
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo5/commit/HEAD"
+    },
+    "stats": {
+      "total": 43,
+      "additions": 29,
+      "deletions": 14,
       "date": "2026-02-26"
     },
     "coverage": 100,

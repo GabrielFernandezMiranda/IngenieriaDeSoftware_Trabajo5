@@ -1,4 +1,4 @@
-function saludar(nombre, hora) {
+function saludar(nombre, genero, hora) {
   // hora optional for testing; default to current hour
   const h = typeof hora === "number" ? hora : new Date().getHours();
 
@@ -11,10 +11,15 @@ function saludar(nombre, hora) {
     saludoHora = "Buenas noches";
   }
 
-  if (!nombre) {
-    return saludoHora;
+  let resultado = saludoHora;
+  if (nombre) {
+    resultado += ` ${nombre}`;
   }
-  return `${saludoHora} ${nombre}`;
+  if (genero) {
+    resultado += ` (${genero})`;
+  }
+
+  return resultado;
 }
 
 export default saludar;
