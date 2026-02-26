@@ -1,8 +1,12 @@
 describe("Saludar", () => {
-  it("Displays Hola nombre when a name is entered", () => {
+  it("Shows time-appropriate greeting with name", () => {
+    // simulate 9am
+    const morning = new Date(2026, 1, 26, 9, 0, 0);
+    cy.clock(morning.getTime());
+
     cy.visit("/");
     cy.get("#nombre-input").type("Ana");
     cy.get("#saludar-button").click();
-    cy.get("#resultado-div").should("contain", "Hola Ana");
+    cy.get("#resultado-div").should("contain", "Buenos días Ana");
   });
 });

@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "afa2b454eb2750fb1f71ddfc5c6b8463ec652591",
     "author": "Gabriel Fernandez",
     "commit": {
       "date": "2026-02-26T05:13:48.000Z",
       "message": "Feat: Ahorate saluda con nombre",
-      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo5/commit/HEAD"
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo5/commit/afa2b454eb2750fb1f71ddfc5c6b8463ec652591"
     },
     "stats": {
       "total": 24,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Fernandez",
+    "commit": {
+      "date": "2026-02-26T05:16:00.000Z",
+      "message": "Feat: Saluda diferente dependiendo la hora, buenos dias, buenas noches, buenas tardes",
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo5/commit/HEAD"
+    },
+    "stats": {
+      "total": 44,
+      "additions": 34,
+      "deletions": 10,
+      "date": "2026-02-26"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
